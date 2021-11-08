@@ -22,8 +22,21 @@ In Deliverable 2 we were tasked with determining the number employees who are el
 - There will be about 1,549 employees who will be eligible to participate in the mentorship program.
 
 ## Summary
-1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+**1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?**
+
 There will be 90,398 roles in need of being filled as soon as the "silver tsunami" starts retiring.
+
+![Mentorship Count](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/retirement_count.PNG)
+
+```
+SELECT COUNT(*)
+INTO retirement_count
+FROM unique_titles;
+```
+
+**2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
+
+Yes, there is plenty of retirement-ready employees in the departments to  mentor the next generation. We have 1,940 employees who are eligible to participate in a mentorship program and about 90,398 people who can mentor them before their retirement.
 
 ![Mentorship Count](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/mentorship_count.PNG)
 
@@ -34,5 +47,3 @@ FROM mentorship_eligibilty
 GROUP BY title
 ORDER BY COUNT DESC;
 ```
-2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-Yes, there is plenty of retirement-ready employees in the departments to  mentor the next generation. We have 1,940 employees who are eligible to participate in a mentorship program and about 90,398 people who can mentor them before their retirement.
