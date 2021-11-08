@@ -9,7 +9,7 @@ To further help Bobby, we further analyze the employee data in our challenge exe
 - Identify employees who are eligible to participate in a mentorship program
 
 ## Results
-![Retiring_Titles](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.png)
+![Retiring_Titles](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.PNG)
 In Deliverable 1 we were tasked with determining the number of retiring employees per title. From the analysis, we can determine the following:
 - There will be about 90,398 retirees who were born between 1952 and 1955.
 - Senior Engineers and Senior Staff roles will be most impacted by this, as there will be 29414 and 28254 retirees respectively from each role.
