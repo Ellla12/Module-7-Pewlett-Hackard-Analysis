@@ -16,7 +16,7 @@ In Deliverable 1 we were tasked with determining the number of retiring employee
 - Senior Engineers and Senior Staff roles will be most impacted by this, as there will be 29414 and 28254 retirees respectively from each role.
 - Managers are least impacted by retirement, as only 2 will be retiring.
 
-![Mentorship Eligibilty](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.png)
+![Mentorship Eligibilty](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.PNG)
 
 In Deliverable 2 we were tasked with determining the number employees who are eligible to participate in a mentorship program. From the analysis, we can determine the following:
 - There will be about 1,549 employees who will be eligible to participate in the mentorship program.
@@ -25,7 +25,7 @@ In Deliverable 2 we were tasked with determining the number employees who are el
 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 There will be 90,398 roles in need of being filled as soon as the "silver tsunami" starts retiring.
 
-![Mentorship Count](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/mentorship_count.png)
+![Mentorship Count](https://github.com/Ellla12/Module-7-Pewlett-Hackard-Analysis/blob/main/Data/mentorship_count.PNG)
 
 ```
 SELECT COUNT(title), title 
