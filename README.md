@@ -1,2 +1,2 @@
-# Module-7-Pewlett-Hackard-Analysis
+# Module 7: Pewlett Hackard Analysis
 UC Davis Bootcamp
